@@ -2,41 +2,31 @@
 
 .notify {
 	color: $alert;
-
-	&.positive {
-		color: $positive;
-
-		&.alert {
-			color: $theme01;
-			background-color: $positive;
-			border: 1px solid darken($positive, 10%);
-		}
-	}
-
-	&.negative {
-		color: $negative;
-
-	}
 }
+.notify-positive {
+	color: $positive;
+}
+.notify-negative {
+	color: $negative;
+}
+
 
 /* 	Alerts */
 .alert {
 	clear: both;
 	display: block;
 	padding: $padding-default;
-	color: $theme01;
+	color: $color02;
 	background-color: $alert;
 	border: 1px solid darken($alert, 10%);
-
-	&.positive {
-		background-color: $positive;
-		color: $theme01;
-		border: 1px solid darken($positive, 10%);
-	}
-
-	&.negative {
-		background-color: $negative;
-		color: $theme01;
-		border: 1px solid darken($negative, 10%);
-	}
+}
+.alert-positive {
+	@extend .alert;
+	background-color: $positive;
+	border-color: darken($positive, 10%);
+}
+.alert-negative {
+	@extend .alert;
+	background-color: $negative;
+	border-color: darken($negative, 10%);
 }
