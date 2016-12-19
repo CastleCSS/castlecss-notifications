@@ -1,7 +1,7 @@
 {
   "name": "castlecss-notifications",
-  "version": "0.3.0",
-  "description": "Notification and alert files for CastleCSS",
+  "version": "1.0.0",
+  "description": "Notification and alert module for CastleCSS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/CastleCSS/castlecss-notifications/issues"
   },
-  "homepage": "https://github.com/CastleCSS/castlecss-notifications#readme"
+  "homepage": "http://www.castlecss.com",
+  "dependencies": {
+    "castlecss-core": "^2.1.0"
+  }
 }
