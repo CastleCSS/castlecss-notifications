@@ -1,24 +1,40 @@
-/* 	Notifications */
-
+/*	Notifications */
 .notify {
-	color: $alert;
+	color: darken($alert, 30%);
+}
+.notify-warning {
+	color: darken($warning, 30%);
 }
 .notify-positive {
-	color: $positive;
+	color: darken($positive, 30%);
 }
-.notify-negative {
-	color: $negative;
+.notify-negative { 
+	color: darken($negative, 30%);
 }
 
-
-/* 	Alerts */
+/*	Alerts */
 .alert {
 	clear: both;
 	display: block;
 	padding: $padding-default;
 	color: $color02;
 	background-color: $alert;
+	border-radius: $radius;
 	border: 1px solid darken($alert, 10%);
+
+	a {
+		color: $color02;
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+.alert-warning {
+	@extend .alert;
+	background-color: $warning;
+	border-color: darken($warning, 10%);	
 }
 .alert-positive {
 	@extend .alert;
