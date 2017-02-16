@@ -1,0 +1,23 @@
+/*
+	Castlecss-notifications variables
+	Fallback for missing castlecss-core variables
+	
+	You should have your own variables file to overwrite castlecss-core
+	Example variables file: http://castlecss.com/variables.html
+
+	Installation instructions: http://castlecss.com/installation.html
+*/
+
+$padding-default: 1.2rem !default;
+
+$color02: #000 !default;
+
+$radius: 5px !default;
+/*
+	Notification colors
+*/
+$alert:		#c0dbff !default;
+$warning:	#ffe283 !default;
+$negative:	#feb3b3 !default;
+$positive:	#c3e5cd !default;
+$disabled:	#CDCDC1 !default;
