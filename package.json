@@ -1,6 +1,6 @@
 {
   "name": "castlecss-notifications",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Notification and alert module for CastleCSS",
   "main": "index.js",
   "scripts": {
